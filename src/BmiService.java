@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate(double mass, double body) {
+    public int calculate(double waight, double height) {
 
-        double bmi = mass / (body * body);
+        double bmi = waight / (height * height);
 
 
         return (int) bmi; // Округляем до целого числа
