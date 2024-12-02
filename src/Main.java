@@ -5,6 +5,6 @@ public class Main {
         double body = 1.72;
         double mass = 65.5;
         int bmi = service.calculate(mass, body);
-        System.out.println(bmi);
+        System.out.println("Ваш индекс массы тела: " + bmi);
     }
 }
